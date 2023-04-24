@@ -1,38 +1,39 @@
 .App {
   text-align: center;
+  width: 100%;
+  background-color: cornsilk;
+}
+.Home {
+  margin-top: 10em;
+  width: 10em;
+  height: 3em;
+  position: center;
+  font-family: 'Times New Roman', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Description text in Home page */
+.Desc {
+  font-family: 'Times New Roman', serif;
+  margin: 35px;
+  text-align: center;
+  height: 100px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.seperator {
+  color: chocolate;
+  size: 10px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
 }
 
-.App-link {
-  color: #61dafb;
+/* Animating small taxi */
+.taxi {
+  margin-top: -4em;
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-timing-function: linear;
+}
+@keyframes mymove {
+  from {right: 0px;}
+  to {right: 300px;}
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

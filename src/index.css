@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Styling form */
+
+.create {
+  max-width: 400px;
+  margin: 10em;
+  margin-left: 50em;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  font-size: medium;
+  align-items: center;
+}
+.create label {
+  text-align: center;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  font-weight: 900;
+  color: orange;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  color: #fff;
+  border: 0;
+  background-color: orange;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 10em;
+}
+@media only screen and (max-width: 600px) {
+  .create {
+    margin: 0 auto;
+    width: 70%;
+    background-image: none;
+     }
+}
+@media only screen and (max-width: 400px) and (min-width: 0px) {
+  .cab {
+      background-image: none;
+  }
+}
