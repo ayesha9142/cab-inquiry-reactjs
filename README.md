@@ -1,6 +1,3 @@
-
-# ReactJs Internship Assignment
-
 ## Description
 
 This is a web application built using React JS for a taxi inquiry service.
@@ -21,7 +18,3 @@ To install the app on your local machine, follow these steps:
 3. Run `npm install` to install the project's dependencies.
 4. Run `npm start` to start the app.
 5. Open your browser and navigate to `http://localhost:3000`.
-
-## Contact
-
-If you have any questions or concerns about the app, please contact me via email: ayiixsha@gmail.com or +(91)7042659142
